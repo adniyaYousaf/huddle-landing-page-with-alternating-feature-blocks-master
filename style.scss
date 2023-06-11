@@ -22,10 +22,6 @@ button {
   font-weight: 700;
   background-color: $pink;
   color: white;
-  &:hover,
-  &:active {
-    opacity: 0.7;
-  }
 }
 a {
   list-style: none;
@@ -35,7 +31,6 @@ a {
     text-decoration: underline;
   }
 }
-
 
 /*-----main-------*/
 * {
@@ -52,7 +47,7 @@ body {
   overflow-x: hidden;
 }
 .hero {
-  height: 50rem;
+  height: 45rem;
   background: url(/images/bg-hero-desktop.svg), $v-pale-cyan;
 }
 
@@ -71,8 +66,12 @@ nav {
     width: 14rem;
     border-radius: 2rem;
     background: white;
-    color: $grayish-blue;
-    box-shadow: 1px 1px 10px grey;
+    color: black;
+    box-shadow: 1px 1px 10px rgb(224, 224, 224);
+    &:hover,
+    &:active {
+      color: $grayish-blue;
+    }
   }
 }
 
@@ -100,6 +99,10 @@ nav {
       border-radius: 2rem;
       background: $pink;
       color: white;
+      &:hover,
+      &:active {
+        opacity: 0.7;
+      }
     }
   }
 
@@ -185,6 +188,10 @@ main {
     height: 4rem;
     width: 20rem;
     border-radius: 5rem;
+    &:hover,
+    &:active {
+      opacity: 0.7;
+    }
   }
 }
 
@@ -195,7 +202,7 @@ footer {
   flex-direction: column;
   justify-content: space-evenly;
   padding: 10rem 5rem 1rem 5rem;
-  
+
   svg {
     stroke: white;
     path {

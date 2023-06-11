@@ -16,9 +16,6 @@ button {
   background-color: hsl(322, 100%, 66%);
   color: white;
 }
-button:hover, button:active {
-  opacity: 0.7;
-}
 
 a {
   list-style: none;
@@ -47,7 +44,7 @@ body {
 }
 
 .hero {
-  height: 50rem;
+  height: 45rem;
   background: url(/images/bg-hero-desktop.svg), hsl(193, 100%, 96%);
 }
 
@@ -66,8 +63,11 @@ nav button {
   width: 14rem;
   border-radius: 2rem;
   background: white;
+  color: black;
+  box-shadow: 1px 1px 10px rgb(224, 224, 224);
+}
+nav button:hover, nav button:active {
   color: hsl(208, 11%, 55%);
-  box-shadow: 1px 1px 10px grey;
 }
 
 .hero-main {
@@ -95,6 +95,9 @@ nav button {
   border-radius: 2rem;
   background: hsl(322, 100%, 66%);
   color: white;
+}
+.hero-main .hero-card button:hover, .hero-main .hero-card button:active {
+  opacity: 0.7;
 }
 .hero-main .img {
   width: 50%;
@@ -176,6 +179,9 @@ main {
   height: 4rem;
   width: 20rem;
   border-radius: 5rem;
+}
+.ques-card .ques-btn:hover, .ques-card .ques-btn:active {
+  opacity: 0.7;
 }
 
 footer {
